@@ -2,12 +2,18 @@ public class ArrayOutput {
  
     public static void main(String[] args) {
         int[] a = { 1, 3, -7, 2, 8, 23, 21, 54, 4, 5 };
-        print(a);
-        
     }
     public static print(int[] array){
 	    for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
+    }
+    public static printSomething(int[] array){
+    	    for (int i = 0; i < array.length; i++) {
+                System.out.println(array[i]);
+            }
+        }
+    public static printOther(){
+        System.out.println("I'm here");
     }
 }
